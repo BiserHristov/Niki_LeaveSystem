@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dr/ZR/jOq+MobbSIsa0V56loxdq/2mLUzBWonWRd6OlEsfCBXiNQ0uAmrZCD2rOnISBn+uswH6rVHvP2ThCNZw==",
+  "success": true,
+  "projectFilePath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\AnnualLeaveSystem.Common\\AnnualLeaveSystem.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Biser\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\Biser\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+  ],
+  "logs": []
+}
