@@ -8,7 +8,7 @@
 
     public class Leave : BaseDeletableModel<int>
     {
-        public DateTime AppliedOn { get; set; }
+        public DateTime AppliedOn { get; set; } = DateTime.UtcNow;
 
         public DateTime StartDate { get; set; }
 

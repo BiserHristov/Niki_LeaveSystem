@@ -930,3 +930,4 @@ E:\_AnnualLeaveSystem\AnnualLeaveSystem\Web\AnnualLeaveSystem.Web\obj\Debug\net5
 E:\_AnnualLeaveSystem\AnnualLeaveSystem\Web\AnnualLeaveSystem.Web\obj\Debug\net5.0\ref\AnnualLeaveSystem.Web.dll
 E:\_AnnualLeaveSystem\AnnualLeaveSystem\Web\AnnualLeaveSystem.Web\obj\Debug\net5.0\AnnualLeaveSystem.Web.pdb
 E:\_AnnualLeaveSystem\AnnualLeaveSystem\Web\AnnualLeaveSystem.Web\obj\Debug\net5.0\AnnualLeaveSystem.Web.genruntimeconfig.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Web\AnnualLeaveSystem.Web\obj\Debug\net5.0\Razor\Views\LeaveRequest\Create.cshtml.g.cs

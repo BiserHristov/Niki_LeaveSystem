@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
-
-namespace AnnualLeaveSystem.Data.Migrations
+﻿namespace AnnualLeaveSystem.Data.Migrations
 {
+    using Microsoft.EntityFrameworkCore.Migrations;
+
     public partial class SelfREferenceForEmployee : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -1,12 +1,13 @@
-﻿using AnnualLeaveSystem.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AnnualLeaveSystem.Data.Seeding
+﻿namespace AnnualLeaveSystem.Data.Seeding
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    using AnnualLeaveSystem.Data.Models;
+
     public class ProjectSeeder : ISeeder
     {
         public async Task SeedAsync(ApplicationDbContext dbContext, IServiceProvider serviceProvider)
