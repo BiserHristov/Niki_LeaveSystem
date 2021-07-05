@@ -66,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\AnnualLeaveSystem.Common\\AnnualLeaveSystem.Common.csproj",
+      "projectUniqueName": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\AnnualLeaveSystem.Common\\AnnualLeaveSystem.Common.csproj",
       "projectName": "AnnualLeaveSystem.Common",
-      "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\AnnualLeaveSystem.Common\\AnnualLeaveSystem.Common.csproj",
+      "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\AnnualLeaveSystem.Common\\AnnualLeaveSystem.Common.csproj",
       "packagesPath": "C:\\Users\\Biser\\.nuget\\packages\\",
-      "outputPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\AnnualLeaveSystem.Common\\obj\\",
+      "outputPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\AnnualLeaveSystem.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

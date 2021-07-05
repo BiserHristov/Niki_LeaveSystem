@@ -9061,11 +9061,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Tests\\AnnualLeaveSystem.Services.Data.Tests\\AnnualLeaveSystem.Services.Data.Tests.csproj",
+      "projectUniqueName": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Tests\\AnnualLeaveSystem.Services.Data.Tests\\AnnualLeaveSystem.Services.Data.Tests.csproj",
       "projectName": "AnnualLeaveSystem.Services.Data.Tests",
-      "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Tests\\AnnualLeaveSystem.Services.Data.Tests\\AnnualLeaveSystem.Services.Data.Tests.csproj",
+      "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Tests\\AnnualLeaveSystem.Services.Data.Tests\\AnnualLeaveSystem.Services.Data.Tests.csproj",
       "packagesPath": "C:\\Users\\Biser\\.nuget\\packages\\",
-      "outputPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Tests\\AnnualLeaveSystem.Services.Data.Tests\\obj\\",
+      "outputPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Tests\\AnnualLeaveSystem.Services.Data.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9086,11 +9086,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data\\AnnualLeaveSystem.Data.csproj": {
-              "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data\\AnnualLeaveSystem.Data.csproj"
+            "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data\\AnnualLeaveSystem.Data.csproj": {
+              "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data\\AnnualLeaveSystem.Data.csproj"
             },
-            "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\AnnualLeaveSystem.Services.Data.csproj": {
-              "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\AnnualLeaveSystem.Services.Data.csproj"
+            "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\AnnualLeaveSystem.Services.Data.csproj": {
+              "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\AnnualLeaveSystem.Services.Data.csproj"
             }
           }
         }

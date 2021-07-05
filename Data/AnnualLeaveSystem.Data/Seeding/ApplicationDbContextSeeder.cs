@@ -27,6 +27,12 @@
                           {
                               new RolesSeeder(),
                               new SettingsSeeder(),
+                              new DepartmentSeeder(),
+                              new ProjectSeeder(),
+                              new TeamSeeder(),
+                              new EmployeeSeeder(),
+                              
+                              
                           };
 
             foreach (var seeder in seeders)

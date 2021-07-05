@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services\\AnnualLeaveSystem.Services.csproj": {}
+    "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services\\AnnualLeaveSystem.Services.csproj": {}
   },
   "projects": {
-    "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services\\AnnualLeaveSystem.Services.csproj": {
+    "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services\\AnnualLeaveSystem.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services\\AnnualLeaveSystem.Services.csproj",
+        "projectUniqueName": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services\\AnnualLeaveSystem.Services.csproj",
         "projectName": "AnnualLeaveSystem.Services",
-        "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services\\AnnualLeaveSystem.Services.csproj",
+        "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services\\AnnualLeaveSystem.Services.csproj",
         "packagesPath": "C:\\Users\\Biser\\.nuget\\packages\\",
-        "outputPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services\\obj\\",
+        "outputPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

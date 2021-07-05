@@ -2,12 +2,12 @@
 
 namespace AnnualLeaveSystem.Data.Migrations
 {
-    public partial class EmployeeTableManagerIDNullable : Migration
+    public partial class MakeTeamLeadNullableInEmployee : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AlterColumn<int>(
-                name: "ManagerId",
+                name: "TeamLeadId",
                 table: "Employees",
                 type: "int",
                 nullable: true,
@@ -18,7 +18,7 @@ namespace AnnualLeaveSystem.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AlterColumn<int>(
-                name: "ManagerId",
+                name: "TeamLeadId",
                 table: "Employees",
                 type: "int",
                 nullable: false,

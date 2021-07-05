@@ -30,7 +30,14 @@
 
         public DbSet<Leave> Leaves { get; set; }
 
+        public DbSet<LeaveType> LeaveTypes { get; set; }
+
         public DbSet<Department> Departments { get; set; }
+
+        public DbSet<Team> Teams { get; set; }
+
+        public DbSet<Project> Projects { get; set; }
+
 
         public override int SaveChanges() => this.SaveChanges(true);
 
@@ -53,6 +60,12 @@
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder.Entity<Project>()
+           .HasOne(p => p.Team)
+           .WithOne(t => t.Project)
+           .HasForeignKey<Team>(t => t.ProjectId);
+
+
 
             // Needed for Identity models configuration
             base.OnModelCreating(builder);
@@ -79,8 +92,6 @@
             {
                 foreignKey.DeleteBehavior = DeleteBehavior.Restrict;
             }
-
-
         }
 
         private static void SetIsDeletedQueryFilter<T>(ModelBuilder builder)

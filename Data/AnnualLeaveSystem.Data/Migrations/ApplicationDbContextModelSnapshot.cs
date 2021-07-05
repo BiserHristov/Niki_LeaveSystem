@@ -202,14 +202,17 @@ namespace AnnualLeaveSystem.Data.Migrations
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ManagerId")
-                        .HasColumnType("int");
-
                     b.Property<string>("MiddleName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("TeamId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("TeamLeadId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -217,12 +220,108 @@ namespace AnnualLeaveSystem.Data.Migrations
 
                     b.HasIndex("IsDeleted");
 
-                    b.HasIndex("ManagerId");
+                    b.HasIndex("TeamId");
+
+                    b.HasIndex("TeamLeadId");
 
                     b.ToTable("Employees");
                 });
 
             modelBuilder.Entity("AnnualLeaveSystem.Data.Models.Leave", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("AppliedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ApproveEmployeeId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsCancelled")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("LeaveTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("RequestComments")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("RequestEmployeeId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApproveEmployeeId");
+
+                    b.HasIndex("IsDeleted");
+
+                    b.HasIndex("LeaveTypeId");
+
+                    b.HasIndex("RequestEmployeeId");
+
+                    b.ToTable("Leaves");
+                });
+
+            modelBuilder.Entity("AnnualLeaveSystem.Data.Models.LeaveType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("DefaultDays")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IsDeleted");
+
+                    b.ToTable("LeaveTypes");
+                });
+
+            modelBuilder.Entity("AnnualLeaveSystem.Data.Models.Project", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -235,8 +334,8 @@ namespace AnnualLeaveSystem.Data.Migrations
                     b.Property<DateTime?>("DeletedOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("EmployeeId")
-                        .HasColumnType("int");
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
@@ -247,16 +346,20 @@ namespace AnnualLeaveSystem.Data.Migrations
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("Id");
+                    b.Property<int>("TeamId")
+                        .HasColumnType("int");
 
-                    b.HasIndex("EmployeeId");
+                    b.HasKey("Id");
 
                     b.HasIndex("IsDeleted");
 
-                    b.ToTable("Leaves");
+                    b.ToTable("Projects");
                 });
 
             modelBuilder.Entity("AnnualLeaveSystem.Data.Models.Setting", b =>
@@ -289,6 +392,38 @@ namespace AnnualLeaveSystem.Data.Migrations
                     b.HasIndex("IsDeleted");
 
                     b.ToTable("Settings");
+                });
+
+            modelBuilder.Entity("AnnualLeaveSystem.Data.Models.Team", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ProjectId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IsDeleted");
+
+                    b.HasIndex("ProjectId")
+                        .IsUnique();
+
+                    b.ToTable("Teams");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -403,24 +538,59 @@ namespace AnnualLeaveSystem.Data.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("AnnualLeaveSystem.Data.Models.Employee", "Manager")
+                    b.HasOne("AnnualLeaveSystem.Data.Models.Team", "Team")
+                        .WithMany("Employees")
+                        .HasForeignKey("TeamId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("AnnualLeaveSystem.Data.Models.Employee", "TeamLead")
                         .WithMany()
-                        .HasForeignKey("ManagerId");
+                        .HasForeignKey("TeamLeadId");
 
                     b.Navigation("Department");
 
-                    b.Navigation("Manager");
+                    b.Navigation("Team");
+
+                    b.Navigation("TeamLead");
                 });
 
             modelBuilder.Entity("AnnualLeaveSystem.Data.Models.Leave", b =>
                 {
-                    b.HasOne("AnnualLeaveSystem.Data.Models.Employee", "Employee")
-                        .WithMany("Leaves")
-                        .HasForeignKey("EmployeeId")
+                    b.HasOne("AnnualLeaveSystem.Data.Models.Employee", "ApproveEmployee")
+                        .WithMany()
+                        .HasForeignKey("ApproveEmployeeId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("Employee");
+                    b.HasOne("AnnualLeaveSystem.Data.Models.LeaveType", "LeaveType")
+                        .WithMany("Leaves")
+                        .HasForeignKey("LeaveTypeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("AnnualLeaveSystem.Data.Models.Employee", "RequestEmployee")
+                        .WithMany("Leaves")
+                        .HasForeignKey("RequestEmployeeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("ApproveEmployee");
+
+                    b.Navigation("LeaveType");
+
+                    b.Navigation("RequestEmployee");
+                });
+
+            modelBuilder.Entity("AnnualLeaveSystem.Data.Models.Team", b =>
+                {
+                    b.HasOne("AnnualLeaveSystem.Data.Models.Project", "Project")
+                        .WithOne("Team")
+                        .HasForeignKey("AnnualLeaveSystem.Data.Models.Team", "ProjectId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Project");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -491,6 +661,21 @@ namespace AnnualLeaveSystem.Data.Migrations
             modelBuilder.Entity("AnnualLeaveSystem.Data.Models.Employee", b =>
                 {
                     b.Navigation("Leaves");
+                });
+
+            modelBuilder.Entity("AnnualLeaveSystem.Data.Models.LeaveType", b =>
+                {
+                    b.Navigation("Leaves");
+                });
+
+            modelBuilder.Entity("AnnualLeaveSystem.Data.Models.Project", b =>
+                {
+                    b.Navigation("Team");
+                });
+
+            modelBuilder.Entity("AnnualLeaveSystem.Data.Models.Team", b =>
+                {
+                    b.Navigation("Employees");
                 });
 #pragma warning restore 612, 618
         }

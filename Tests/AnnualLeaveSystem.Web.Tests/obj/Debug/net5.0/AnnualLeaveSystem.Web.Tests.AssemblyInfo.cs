@@ -12,8 +12,8 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("AnnualLeaveSystem.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data", "AnnualLeaveSystem.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("AnnualLeaveSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Web\\AnnualLeaveSystem.Web", "AnnualLeaveSystem.Web.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("AnnualLeaveSystem.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data", "AnnualLeaveSystem.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("AnnualLeaveSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Web\\AnnualLeaveSystem.Web", "AnnualLeaveSystem.Web.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnnualLeaveSystem.Web.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

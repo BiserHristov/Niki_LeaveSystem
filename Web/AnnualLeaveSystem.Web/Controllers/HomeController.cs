@@ -1,16 +1,30 @@
 ﻿namespace AnnualLeaveSystem.Web.Controllers
 {
     using System.Diagnostics;
-
+    using System.Linq;
+    using AnnualLeaveSystem.Data;
     using AnnualLeaveSystem.Web.ViewModels;
-
+    using AnnualLeaveSystem.Web.ViewModels.Home;
     using Microsoft.AspNetCore.Mvc;
 
     public class HomeController : BaseController
     {
+        private readonly ApplicationDbContext db;
+
+        public HomeController(ApplicationDbContext db)
+        {
+            this.db = db;
+        }
+
         public IActionResult Index()
         {
-            return this.View();
+            var viewModel = new IndexViewModel
+            {
+                DepartmentsCount = db.Departments.Count(),
+                EmployeesCount = db.Employees.Count()
+            };
+
+            return this.View(viewModel);
         }
 
         public IActionResult Privacy()

@@ -7,3 +7,12 @@ E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\AnnualLeaveSystem.Common\ob
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\AnnualLeaveSystem.Common\obj\Debug\netstandard2.1\AnnualLeaveSystem.Common.csproj.CoreCompileInputs.cache
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\AnnualLeaveSystem.Common\obj\Debug\netstandard2.1\AnnualLeaveSystem.Common.dll
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\AnnualLeaveSystem.Common\obj\Debug\netstandard2.1\AnnualLeaveSystem.Common.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\AnnualLeaveSystem.Common\bin\Debug\netstandard2.1\AnnualLeaveSystem.Common.deps.json
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\AnnualLeaveSystem.Common\bin\Debug\netstandard2.1\AnnualLeaveSystem.Common.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\AnnualLeaveSystem.Common\bin\Debug\netstandard2.1\AnnualLeaveSystem.Common.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\AnnualLeaveSystem.Common\obj\Debug\netstandard2.1\AnnualLeaveSystem.Common.csproj.AssemblyReference.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\AnnualLeaveSystem.Common\obj\Debug\netstandard2.1\AnnualLeaveSystem.Common.AssemblyInfoInputs.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\AnnualLeaveSystem.Common\obj\Debug\netstandard2.1\AnnualLeaveSystem.Common.AssemblyInfo.cs
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\AnnualLeaveSystem.Common\obj\Debug\netstandard2.1\AnnualLeaveSystem.Common.csproj.CoreCompileInputs.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\AnnualLeaveSystem.Common\obj\Debug\netstandard2.1\AnnualLeaveSystem.Common.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\AnnualLeaveSystem.Common\obj\Debug\netstandard2.1\AnnualLeaveSystem.Common.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kFONQYuzGR9K3lkXLAz6o+nhrY3rcnnLEZzXuhdxvk+7fslEWghEY67ag+7CeV14M4O64H7PXzIJLmITVxD/sQ==",
+  "dgSpecHash": "62kM7J7UzgaR7aBRt/oQrrY2ccFsfPnHEXBiF6ICgmOGwNduunF8ko5d1sdLmwFkWFQH85XurOsB3bx4/e3jKw==",
   "success": true,
-  "projectFilePath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj",
+  "projectFilePath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Biser\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Biser\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

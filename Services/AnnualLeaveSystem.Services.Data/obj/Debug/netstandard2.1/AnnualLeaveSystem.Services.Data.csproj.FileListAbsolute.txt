@@ -14,3 +14,19 @@ E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Services\AnnualLeaveSystem.
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.csproj.CopyComplete
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.dll
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\bin\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.deps.json
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\bin\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\bin\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\bin\Debug\netstandard2.1\AnnualLeaveSystem.Data.Common.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\bin\Debug\netstandard2.1\AnnualLeaveSystem.Data.Models.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\bin\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\bin\Debug\netstandard2.1\AnnualLeaveSystem.Data.Common.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\bin\Debug\netstandard2.1\AnnualLeaveSystem.Data.Models.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\bin\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.csproj.AssemblyReference.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.AssemblyInfoInputs.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.AssemblyInfo.cs
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.csproj.CoreCompileInputs.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.csproj.CopyComplete
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.pdb

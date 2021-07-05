@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TidjLNhVbeOjWcToezUViGHxZ0Pnia+BJfY7tupWW3JKHsvV/bv2jowMCSMS15Zhg7lH26VyRigc8NcdEcgq8w==",
+  "dgSpecHash": "Er42d6l7d9c467au08zDSFsujtTjjFOlxfYjm3/q/90ev5W3P/vi3r927weNfZdTgjcC8jxfSjQWHvkjMWtkVg==",
   "success": true,
-  "projectFilePath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Tests\\Sandbox\\Sandbox.csproj",
+  "projectFilePath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Tests\\Sandbox\\Sandbox.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Biser\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Biser\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512",

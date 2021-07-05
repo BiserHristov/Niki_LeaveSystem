@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4r7ank6fEp5OYrhoM+n4FxVCCE/b5xdlFBMB2ooeLZs6RaueY91RUp0DYab2o2RMVt90mpozn7Y4Jh/oUlAoUg==",
+  "dgSpecHash": "AmvTiDyRFljL2nm+4GgWe7rae6PVg3CETcXL3J0yxO3J0ThMJXC92aiDYpeS1BCLVSFMxlT4qKkGalYvsr5T0A==",
   "success": true,
-  "projectFilePath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Web\\AnnualLeaveSystem.Web\\AnnualLeaveSystem.Web.csproj",
+  "projectFilePath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Web\\AnnualLeaveSystem.Web\\AnnualLeaveSystem.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Biser\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Biser\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",

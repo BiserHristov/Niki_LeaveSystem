@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\AnnualLeaveSystem.Services.Data.csproj": {}
+    "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\AnnualLeaveSystem.Services.Data.csproj": {}
   },
   "projects": {
-    "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj": {
+    "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj",
+        "projectUniqueName": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj",
         "projectName": "AnnualLeaveSystem.Data.Common",
-        "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj",
+        "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj",
         "packagesPath": "C:\\Users\\Biser\\.nuget\\packages\\",
-        "outputPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\obj\\",
+        "outputPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,14 +74,14 @@
         }
       }
     },
-    "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj": {
+    "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj",
+        "projectUniqueName": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj",
         "projectName": "AnnualLeaveSystem.Data.Models",
-        "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj",
+        "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj",
         "packagesPath": "C:\\Users\\Biser\\.nuget\\packages\\",
-        "outputPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\obj\\",
+        "outputPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -102,8 +102,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj": {
-                "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj"
+              "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj": {
+                "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\AnnualLeaveSystem.Services.Data.csproj": {
+    "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\AnnualLeaveSystem.Services.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\AnnualLeaveSystem.Services.Data.csproj",
+        "projectUniqueName": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\AnnualLeaveSystem.Services.Data.csproj",
         "projectName": "AnnualLeaveSystem.Services.Data",
-        "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\AnnualLeaveSystem.Services.Data.csproj",
+        "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\AnnualLeaveSystem.Services.Data.csproj",
         "packagesPath": "C:\\Users\\Biser\\.nuget\\packages\\",
-        "outputPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\obj\\",
+        "outputPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -176,14 +176,14 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj": {
-                "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj"
+              "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj": {
+                "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj"
               },
-              "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj": {
-                "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj"
+              "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj": {
+                "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj"
               },
-              "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj": {
-                "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj"
+              "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj": {
+                "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj"
               }
             }
           }
@@ -224,14 +224,14 @@
         }
       }
     },
-    "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj": {
+    "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj",
+        "projectUniqueName": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj",
         "projectName": "AnnualLeaveSystem.Services.Mapping",
-        "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj",
+        "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj",
         "packagesPath": "C:\\Users\\Biser\\.nuget\\packages\\",
-        "outputPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\obj\\",
+        "outputPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

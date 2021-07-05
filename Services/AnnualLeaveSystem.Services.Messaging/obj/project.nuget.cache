@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FWw0qmX6+FtJ14PNfSFeHFCJzjaKpMTgxRSw4CDk7b/L7Jj/kfA/dtbxx56ei/menenfXjlD30hvScbBE8CGcg==",
+  "dgSpecHash": "qV7tIkL0pOfiwomu/l5Mf95m7w4fBOZlq5bFR1yShIFHuKnJmLSnhrH1lM6+1o4ssjMgPtUmOOOARCvUR4m9dA==",
   "success": true,
-  "projectFilePath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Messaging\\AnnualLeaveSystem.Services.Messaging.csproj",
+  "projectFilePath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Messaging\\AnnualLeaveSystem.Services.Messaging.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Biser\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Biser\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",

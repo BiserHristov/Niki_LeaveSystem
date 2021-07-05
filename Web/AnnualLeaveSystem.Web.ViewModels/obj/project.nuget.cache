@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dklot7oMXHioWiYPrZ7sWFWjFl3X4DA4sIVUnjTlsBTWfWXm8MbxdhrqnqkaMiC7VkexPMtsSRWBLFGyaeqkGQ==",
+  "dgSpecHash": "9mXBIraKoENmk5lSg/Cqbit4XtlpnvxAIg2V82Ry4jMlF7C5eJpA+zjNLdO+E8V7C/ywNCpdVx9PzjbAzVj3jg==",
   "success": true,
-  "projectFilePath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Web\\AnnualLeaveSystem.Web.ViewModels\\AnnualLeaveSystem.Web.ViewModels.csproj",
+  "projectFilePath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Web\\AnnualLeaveSystem.Web.ViewModels\\AnnualLeaveSystem.Web.ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Biser\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Biser\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.6\\microsoft.aspnetcore.cryptography.internal.5.0.6.nupkg.sha512",
