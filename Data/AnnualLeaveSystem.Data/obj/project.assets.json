@@ -6306,11 +6306,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data\\AnnualLeaveSystem.Data.csproj",
+      "projectUniqueName": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data\\AnnualLeaveSystem.Data.csproj",
       "projectName": "AnnualLeaveSystem.Data",
-      "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data\\AnnualLeaveSystem.Data.csproj",
+      "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data\\AnnualLeaveSystem.Data.csproj",
       "packagesPath": "C:\\Users\\Biser\\.nuget\\packages\\",
-      "outputPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data\\obj\\",
+      "outputPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6331,14 +6331,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\AnnualLeaveSystem.Common\\AnnualLeaveSystem.Common.csproj": {
-              "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\AnnualLeaveSystem.Common\\AnnualLeaveSystem.Common.csproj"
+            "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\AnnualLeaveSystem.Common\\AnnualLeaveSystem.Common.csproj": {
+              "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\AnnualLeaveSystem.Common\\AnnualLeaveSystem.Common.csproj"
             },
-            "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj": {
-              "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj"
+            "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj": {
+              "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Common\\AnnualLeaveSystem.Data.Common.csproj"
             },
-            "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj": {
-              "projectPath": "E:\\_SoftUni\\06. C# Web\\02. ASP.NET\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj"
+            "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj": {
+              "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Data\\AnnualLeaveSystem.Data.Models\\AnnualLeaveSystem.Data.Models.csproj"
             }
           }
         }

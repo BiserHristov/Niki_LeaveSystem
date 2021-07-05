@@ -21,3 +21,26 @@ E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\obj\Debug\net5.0\ref\AnnualLeaveSystem.Data.dll
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\obj\Debug\net5.0\AnnualLeaveSystem.Data.pdb
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\obj\Debug\net5.0\AnnualLeaveSystem.Data.genruntimeconfig.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\bin\Debug\net5.0\appsettings.json
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\bin\Debug\net5.0\AnnualLeaveSystem.Data.deps.json
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\bin\Debug\net5.0\AnnualLeaveSystem.Data.runtimeconfig.json
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\bin\Debug\net5.0\AnnualLeaveSystem.Data.runtimeconfig.dev.json
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\bin\Debug\net5.0\AnnualLeaveSystem.Data.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\bin\Debug\net5.0\ref\AnnualLeaveSystem.Data.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\bin\Debug\net5.0\AnnualLeaveSystem.Data.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\bin\Debug\net5.0\AnnualLeaveSystem.Common.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\bin\Debug\net5.0\AnnualLeaveSystem.Data.Common.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\bin\Debug\net5.0\AnnualLeaveSystem.Data.Models.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\bin\Debug\net5.0\AnnualLeaveSystem.Common.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\bin\Debug\net5.0\AnnualLeaveSystem.Data.Common.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\bin\Debug\net5.0\AnnualLeaveSystem.Data.Models.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\obj\Debug\net5.0\AnnualLeaveSystem.Data.csproj.AssemblyReference.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\obj\Debug\net5.0\AnnualLeaveSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\obj\Debug\net5.0\AnnualLeaveSystem.Data.AssemblyInfoInputs.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\obj\Debug\net5.0\AnnualLeaveSystem.Data.AssemblyInfo.cs
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\obj\Debug\net5.0\AnnualLeaveSystem.Data.csproj.CoreCompileInputs.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\obj\Debug\net5.0\AnnualLeaveSystem.Data.csproj.CopyComplete
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\obj\Debug\net5.0\AnnualLeaveSystem.Data.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\obj\Debug\net5.0\ref\AnnualLeaveSystem.Data.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\obj\Debug\net5.0\AnnualLeaveSystem.Data.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Data\AnnualLeaveSystem.Data\obj\Debug\net5.0\AnnualLeaveSystem.Data.genruntimeconfig.cache

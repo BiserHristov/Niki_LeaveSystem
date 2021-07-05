@@ -4,14 +4,16 @@ using AnnualLeaveSystem.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AnnualLeaveSystem.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210704233224_AddManagerrelatipons")]
+    partial class AddManagerrelatipons
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -155,6 +157,9 @@ namespace AnnualLeaveSystem.Data.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<int>("ManagerId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime?>("ModifiedOn")
                         .HasColumnType("datetime2");
 
@@ -164,6 +169,8 @@ namespace AnnualLeaveSystem.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("IsDeleted");
+
+                    b.HasIndex("ManagerId");
 
                     b.ToTable("Departments");
                 });
@@ -202,9 +209,6 @@ namespace AnnualLeaveSystem.Data.Migrations
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ManagerId")
-                        .HasColumnType("int");
-
                     b.Property<string>("MiddleName")
                         .HasColumnType("nvarchar(max)");
 
@@ -216,8 +220,6 @@ namespace AnnualLeaveSystem.Data.Migrations
                     b.HasIndex("DepartmentId");
 
                     b.HasIndex("IsDeleted");
-
-                    b.HasIndex("ManagerId");
 
                     b.ToTable("Employees");
                 });
@@ -395,6 +397,17 @@ namespace AnnualLeaveSystem.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
+            modelBuilder.Entity("AnnualLeaveSystem.Data.Models.Department", b =>
+                {
+                    b.HasOne("AnnualLeaveSystem.Data.Models.Employee", "Manager")
+                        .WithMany("Departments")
+                        .HasForeignKey("ManagerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Manager");
+                });
+
             modelBuilder.Entity("AnnualLeaveSystem.Data.Models.Employee", b =>
                 {
                     b.HasOne("AnnualLeaveSystem.Data.Models.Department", "Department")
@@ -403,13 +416,7 @@ namespace AnnualLeaveSystem.Data.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("AnnualLeaveSystem.Data.Models.Employee", "Manager")
-                        .WithMany()
-                        .HasForeignKey("ManagerId");
-
                     b.Navigation("Department");
-
-                    b.Navigation("Manager");
                 });
 
             modelBuilder.Entity("AnnualLeaveSystem.Data.Models.Leave", b =>
@@ -490,6 +497,8 @@ namespace AnnualLeaveSystem.Data.Migrations
 
             modelBuilder.Entity("AnnualLeaveSystem.Data.Models.Employee", b =>
                 {
+                    b.Navigation("Departments");
+
                     b.Navigation("Leaves");
                 });
 #pragma warning restore 612, 618
