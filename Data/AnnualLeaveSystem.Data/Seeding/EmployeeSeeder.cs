@@ -18,8 +18,8 @@
             }
 
             await dbContext.Employees.AddAsync(new Employee { FirstName = "Peter", LastName = "Petrov", DepartmentId = 2, TeamId = 1 });
-            await dbContext.Employees.AddAsync(new Employee { FirstName = "Ivan", LastName = "Inanov", DepartmentId = 1, TeamId = 1});
-            await dbContext.Employees.AddAsync(new Employee { FirstName = "Stoyan", LastName = "Stoyanov", DepartmentId = 3, TeamId = 2});
+            await dbContext.Employees.AddAsync(new Employee { FirstName = "Ivan", LastName = "Inanov", DepartmentId = 1, TeamId = 1 });
+            await dbContext.Employees.AddAsync(new Employee { FirstName = "Stoyan", LastName = "Stoyanov", DepartmentId = 3, TeamId = 2 });
 
             await dbContext.SaveChangesAsync();
         }

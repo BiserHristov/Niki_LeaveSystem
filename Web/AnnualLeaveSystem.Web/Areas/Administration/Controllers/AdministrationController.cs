@@ -2,7 +2,6 @@
 {
     using AnnualLeaveSystem.Common;
     using AnnualLeaveSystem.Web.Controllers;
-
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
 

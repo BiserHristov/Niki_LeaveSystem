@@ -9,6 +9,5 @@
         public int EmployeesCount { get; set; }
 
         public int DepartmentsCount { get; set; }
-
     }
 }

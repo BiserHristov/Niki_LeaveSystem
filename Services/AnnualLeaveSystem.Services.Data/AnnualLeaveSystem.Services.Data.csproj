@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\AnnualLeaveSystem.Data.Common\AnnualLeaveSystem.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\AnnualLeaveSystem.Data.Models\AnnualLeaveSystem.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Web\AnnualLeaveSystem.Web.ViewModels\AnnualLeaveSystem.Web.ViewModels.csproj" />
     <ProjectReference Include="..\AnnualLeaveSystem.Services.Mapping\AnnualLeaveSystem.Services.Mapping.csproj" />
   </ItemGroup>
 

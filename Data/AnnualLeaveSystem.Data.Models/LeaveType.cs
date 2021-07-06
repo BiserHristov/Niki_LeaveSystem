@@ -8,12 +8,9 @@
 
     public class LeaveType : BaseDeletableModel<int>
     {
-
         public string Name { get; set; }
 
         public int DefaultDays { get; set; }
-
-        public DateTime DateCreated { get; set; }
 
         public ICollection<Leave> Leaves { get; set; }
     }

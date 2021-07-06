@@ -5,7 +5,6 @@ namespace AnnualLeaveSystem.Data.Models
     using System.Collections.Generic;
 
     using AnnualLeaveSystem.Data.Common.Models;
-
     using Microsoft.AspNetCore.Identity;
 
     public class ApplicationUser : IdentityUser, IAuditInfo, IDeletableEntity

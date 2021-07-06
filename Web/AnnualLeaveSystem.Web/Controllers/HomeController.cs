@@ -2,28 +2,32 @@
 {
     using System.Diagnostics;
     using System.Linq;
+
     using AnnualLeaveSystem.Data;
+    using AnnualLeaveSystem.Data.Common.Repositories;
+    using AnnualLeaveSystem.Data.Models;
+    using AnnualLeaveSystem.Services.Data;
     using AnnualLeaveSystem.Web.ViewModels;
     using AnnualLeaveSystem.Web.ViewModels.Home;
     using Microsoft.AspNetCore.Mvc;
 
     public class HomeController : BaseController
     {
-        private readonly ApplicationDbContext db;
+        private readonly IGetCountService getCountService;
 
-        public HomeController(ApplicationDbContext db)
+        public HomeController(IGetCountService getCountService)
         {
-            this.db = db;
+            this.getCountService = getCountService;
         }
 
         public IActionResult Index()
         {
+            var dtoModel = this.getCountService.GetCount();
             var viewModel = new IndexViewModel
             {
-                DepartmentsCount = db.Departments.Count(),
-                EmployeesCount = db.Employees.Count()
+                DepartmentsCount = dtoModel.DepartmentsCount,
+                EmployeesCount = dtoModel.EmployeesCount,
             };
-
             return this.View(viewModel);
         }
 

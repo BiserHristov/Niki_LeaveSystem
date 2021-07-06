@@ -13,9 +13,7 @@
     using AnnualLeaveSystem.Data.Seeding;
     using AnnualLeaveSystem.Services.Data;
     using AnnualLeaveSystem.Services.Messaging;
-
     using CommandLine;
-
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;

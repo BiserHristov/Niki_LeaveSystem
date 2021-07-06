@@ -3,7 +3,6 @@
     using System.Linq;
 
     using AnnualLeaveSystem.Data.Common.Models;
-
     using Microsoft.EntityFrameworkCore;
 
     internal static class EntityIndexesConfiguration

@@ -12,7 +12,6 @@
     using AnnualLeaveSystem.Services.Mapping;
     using AnnualLeaveSystem.Services.Messaging;
     using AnnualLeaveSystem.Web.ViewModels;
-
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Http;
@@ -65,6 +64,9 @@
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
             services.AddTransient<ISettingsService, SettingsService>();
+            services.AddTransient<IGetCountService, GetCountService>();
+            services.AddTransient<ILeaveTypeService, LeaveTypeService>();
+            services.AddTransient<IEmployeesInTeamService, EmployeesInTeamService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

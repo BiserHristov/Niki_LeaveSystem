@@ -5,7 +5,6 @@
 
     using AnnualLeaveSystem.Data.Common.Models;
     using AnnualLeaveSystem.Data.Common.Repositories;
-
     using Microsoft.EntityFrameworkCore;
 
     public class EfDeletableEntityRepository<TEntity> : EfRepository<TEntity>, IDeletableEntityRepository<TEntity>

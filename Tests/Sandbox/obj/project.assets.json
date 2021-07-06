@@ -1880,7 +1880,8 @@
         "dependencies": {
           "AnnualLeaveSystem.Data.Common": "1.0.0",
           "AnnualLeaveSystem.Data.Models": "1.0.0",
-          "AnnualLeaveSystem.Services.Mapping": "1.0.0"
+          "AnnualLeaveSystem.Services.Mapping": "1.0.0",
+          "AnnualLeaveSystem.Web.ViewModels": "1.0.0"
         },
         "compile": {
           "bin/placeholder/AnnualLeaveSystem.Services.Data.dll": {}
@@ -1913,6 +1914,20 @@
         },
         "runtime": {
           "bin/placeholder/AnnualLeaveSystem.Services.Messaging.dll": {}
+        }
+      },
+      "AnnualLeaveSystem.Web.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "AnnualLeaveSystem.Data.Models": "1.0.0",
+          "AnnualLeaveSystem.Services.Mapping": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AnnualLeaveSystem.Web.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AnnualLeaveSystem.Web.ViewModels.dll": {}
         }
       }
     }
@@ -6721,6 +6736,11 @@
       "type": "project",
       "path": "../../Services/AnnualLeaveSystem.Services.Messaging/AnnualLeaveSystem.Services.Messaging.csproj",
       "msbuildProject": "../../Services/AnnualLeaveSystem.Services.Messaging/AnnualLeaveSystem.Services.Messaging.csproj"
+    },
+    "AnnualLeaveSystem.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../../Web/AnnualLeaveSystem.Web.ViewModels/AnnualLeaveSystem.Web.ViewModels.csproj",
+      "msbuildProject": "../../Web/AnnualLeaveSystem.Web.ViewModels/AnnualLeaveSystem.Web.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {

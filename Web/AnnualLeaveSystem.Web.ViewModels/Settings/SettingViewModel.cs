@@ -2,7 +2,6 @@
 {
     using AnnualLeaveSystem.Data.Models;
     using AnnualLeaveSystem.Services.Mapping;
-
     using AutoMapper;
 
     public class SettingViewModel : IMapFrom<Setting>, IHaveCustomMappings

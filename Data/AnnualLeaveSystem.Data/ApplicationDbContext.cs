@@ -8,7 +8,6 @@
 
     using AnnualLeaveSystem.Data.Common.Models;
     using AnnualLeaveSystem.Data.Models;
-
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
 
@@ -38,7 +37,6 @@
 
         public DbSet<Project> Projects { get; set; }
 
-
         public override int SaveChanges() => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)
@@ -64,8 +62,6 @@
            .HasOne(p => p.Team)
            .WithOne(t => t.Project)
            .HasForeignKey<Team>(t => t.ProjectId);
-
-
 
             // Needed for Identity models configuration
             base.OnModelCreating(builder);

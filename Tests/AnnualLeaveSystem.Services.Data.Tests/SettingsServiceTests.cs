@@ -8,11 +8,8 @@
     using AnnualLeaveSystem.Data.Common.Repositories;
     using AnnualLeaveSystem.Data.Models;
     using AnnualLeaveSystem.Data.Repositories;
-
     using Microsoft.EntityFrameworkCore;
-
     using Moq;
-
     using Xunit;
 
     public class SettingsServiceTests

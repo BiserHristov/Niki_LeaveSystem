@@ -7,3 +7,12 @@ E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Services\AnnualLeaveSystem.
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Mapping\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.csproj.CoreCompileInputs.cache
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Mapping\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.dll
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Mapping\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Mapping\bin\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.deps.json
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Mapping\bin\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Mapping\bin\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Mapping\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.csproj.AssemblyReference.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Mapping\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.AssemblyInfoInputs.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Mapping\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.AssemblyInfo.cs
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Mapping\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.csproj.CoreCompileInputs.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Mapping\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Mapping\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Mapping.pdb

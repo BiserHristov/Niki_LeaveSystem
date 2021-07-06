@@ -7,7 +7,6 @@
     using AnnualLeaveSystem.Data.Models;
     using AnnualLeaveSystem.Services.Data;
     using AnnualLeaveSystem.Web.ViewModels.Settings;
-
     using Microsoft.AspNetCore.Mvc;
 
     public class SettingsController : BaseController

@@ -7,3 +7,12 @@ E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Services\AnnualLeaveSystem.
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Messaging\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Messaging.csproj.CoreCompileInputs.cache
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Messaging\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Messaging.dll
 E:\_SoftUni\06. C# Web\02. ASP.NET\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Messaging\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Messaging.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Messaging\bin\Debug\netstandard2.1\AnnualLeaveSystem.Services.Messaging.deps.json
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Messaging\bin\Debug\netstandard2.1\AnnualLeaveSystem.Services.Messaging.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Messaging\bin\Debug\netstandard2.1\AnnualLeaveSystem.Services.Messaging.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Messaging\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Messaging.csproj.AssemblyReference.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Messaging\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Messaging.AssemblyInfoInputs.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Messaging\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Messaging.AssemblyInfo.cs
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Messaging\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Messaging.csproj.CoreCompileInputs.cache
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Messaging\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Messaging.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Messaging\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Messaging.pdb

@@ -31,7 +31,6 @@
 
         public Team Team { get; set; }
 
-
         public DateTime HireDate { get; set; }
 
         [InverseProperty("RequestEmployee")]

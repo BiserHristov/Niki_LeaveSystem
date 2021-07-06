@@ -30,3 +30,5 @@ E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data
 E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.csproj.CopyComplete
 E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.dll
 E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\obj\Debug\netstandard2.1\AnnualLeaveSystem.Services.Data.pdb
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\bin\Debug\netstandard2.1\AnnualLeaveSystem.Web.ViewModels.dll
+E:\_AnnualLeaveSystem\AnnualLeaveSystem\Services\AnnualLeaveSystem.Services.Data\bin\Debug\netstandard2.1\AnnualLeaveSystem.Web.ViewModels.pdb

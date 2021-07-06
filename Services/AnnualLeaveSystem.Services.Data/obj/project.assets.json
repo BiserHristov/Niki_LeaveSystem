@@ -382,6 +382,20 @@
         "runtime": {
           "bin/placeholder/AnnualLeaveSystem.Services.Mapping.dll": {}
         }
+      },
+      "AnnualLeaveSystem.Web.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "AnnualLeaveSystem.Data.Models": "1.0.0",
+          "AnnualLeaveSystem.Services.Mapping": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AnnualLeaveSystem.Web.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AnnualLeaveSystem.Web.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -1190,6 +1204,11 @@
       "type": "project",
       "path": "../AnnualLeaveSystem.Services.Mapping/AnnualLeaveSystem.Services.Mapping.csproj",
       "msbuildProject": "../AnnualLeaveSystem.Services.Mapping/AnnualLeaveSystem.Services.Mapping.csproj"
+    },
+    "AnnualLeaveSystem.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../../Web/AnnualLeaveSystem.Web.ViewModels/AnnualLeaveSystem.Web.ViewModels.csproj",
+      "msbuildProject": "../../Web/AnnualLeaveSystem.Web.ViewModels/AnnualLeaveSystem.Web.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1197,6 +1216,7 @@
       "AnnualLeaveSystem.Data.Common >= 1.0.0",
       "AnnualLeaveSystem.Data.Models >= 1.0.0",
       "AnnualLeaveSystem.Services.Mapping >= 1.0.0",
+      "AnnualLeaveSystem.Web.ViewModels >= 1.0.0",
       "StyleCop.Analyzers >= 1.2.0-beta.312"
     ]
   },
@@ -1240,6 +1260,9 @@
             },
             "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj": {
               "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Services\\AnnualLeaveSystem.Services.Mapping\\AnnualLeaveSystem.Services.Mapping.csproj"
+            },
+            "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Web\\AnnualLeaveSystem.Web.ViewModels\\AnnualLeaveSystem.Web.ViewModels.csproj": {
+              "projectPath": "E:\\_AnnualLeaveSystem\\AnnualLeaveSystem\\Web\\AnnualLeaveSystem.Web.ViewModels\\AnnualLeaveSystem.Web.ViewModels.csproj"
             }
           }
         }

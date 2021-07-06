@@ -10,9 +10,9 @@
     {
         public string Name { get; set; }
 
-        //public int ManagerId { get; set; }
+        // public int ManagerId { get; set; }
 
-       // public Employee Manager { get; set; }
+        // public Employee Manager { get; set; }
         public ICollection<Employee> Employees { get; set; } = new HashSet<Employee>();
     }
 }

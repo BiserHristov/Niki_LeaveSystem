@@ -6,7 +6,6 @@
 
     using AnnualLeaveSystem.Common;
     using AnnualLeaveSystem.Data.Models;
-
     using Microsoft.AspNetCore.Identity;
     using Microsoft.Extensions.DependencyInjection;
 

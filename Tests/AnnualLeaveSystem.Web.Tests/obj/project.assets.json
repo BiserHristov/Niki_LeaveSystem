@@ -3616,7 +3616,8 @@
         "dependencies": {
           "AnnualLeaveSystem.Data.Common": "1.0.0",
           "AnnualLeaveSystem.Data.Models": "1.0.0",
-          "AnnualLeaveSystem.Services.Mapping": "1.0.0"
+          "AnnualLeaveSystem.Services.Mapping": "1.0.0",
+          "AnnualLeaveSystem.Web.ViewModels": "1.0.0"
         },
         "compile": {
           "bin/placeholder/AnnualLeaveSystem.Services.Data.dll": {}
